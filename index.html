@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Армен Оганесян — Гитарист</title>
+  <meta name="description" content="Армен Оганесян — профессиональный гитарист, вокалист и педагог из Гюмри." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="no-scroll">
+
+  <!-- ══ SPLASH ═══════════════════════════════════════════════ -->
+  <div class="splash" id="splash">
+    <audio id="splashAudio" src="splash sound/acoustic-guitar_zjrsq7ho.mp3" preload="auto"></audio>
+
+    <!-- Strings decoration -->
+    <div class="splash-strings" aria-hidden="true">
+      <div class="s-string"></div>
+      <div class="s-string"></div>
+      <div class="s-string"></div>
+      <div class="s-string"></div>
+      <div class="s-string"></div>
+      <div class="s-string"></div>
+    </div>
+
+    <!-- Center content -->
+    <div class="splash-center">
+      <div class="splash-logo">A·H</div>
+      <h1 class="splash-name">
+        <span>Армен</span>
+        <em>Оганесян</em>
+      </h1>
+      <p class="splash-role">Guitarist · Vocalist · Teacher</p>
+
+      <!-- Progress bar -->
+      <div class="splash-progress" id="splashProgress">
+        <div class="sp-bar" id="spBar"></div>
+      </div>
+    </div>
+
+    <!-- Bottom location -->
+    <div class="splash-footer">Gyumri, Armenia</div>
+  </div>
+  <!-- ════════════════════════════════════════════════════════ -->
+
+  <!-- ── Header ─────────────────────────────────────────────── -->
+  <header class="header" id="header">
+    <a href="#hero" class="logo">A·H</a>
+    <nav class="nav" id="nav">
+      <a href="#hero"     class="nav-link" data-i18n="nav_home">Главная</a>
+      <a href="#bio"      class="nav-link" data-i18n="nav_bio">Биография</a>
+      <a href="#gallery"  class="nav-link" data-i18n="nav_gallery">Галерея</a>
+      <a href="#projects" class="nav-link" data-i18n="nav_projects">Проекты</a>
+      <a href="#contact"  class="nav-link" data-i18n="nav_contact">Контакт</a>
+    </nav>
+    <div class="header-right">
+      <div class="lang-switcher">
+        <button class="lang-btn active" data-lang="ru">RU</button>
+        <span class="lang-div">|</span>
+        <button class="lang-btn" data-lang="en">EN</button>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── HERO ───────────────────────────────────────────────── -->
+  <section id="hero" class="hero">
+    <div class="hero-photo-wrap">
+      <img src="фото/2026-03-18 21.49.04.jpg" alt="Армен Оганесян" class="hero-photo" />
+    </div>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-tag" data-i18n="hero_tag">Гитарист · Вокалист · Педагог</p>
+      <h1 class="hero-name">
+        <span class="hero-name-line" data-i18n="hero_name_1">Армен</span>
+        <span class="hero-name-line italic" data-i18n="hero_name_2">Оганесян</span>
+      </h1>
+      <p class="hero-location">📍 Гюмри, Армения</p>
+      <div class="hero-btns">
+        <a href="#bio"      class="btn btn-gold"  data-i18n="hero_cta">Биография</a>
+        <a href="#projects" class="btn btn-ghost" data-i18n="nav_projects">Проекты</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hstat"><b>20+</b><span data-i18n="stat_exp">лет опыта</span></div>
+      <div class="hstat"><b>2</b><span data-i18n="stat_bands">группы</span></div>
+      <div class="hstat"><b>1000+</b><span data-i18n="stat_students">учеников</span></div>
+    </div>
+    <a href="#bio" class="hero-scroll-hint" aria-hidden="true">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+        <path d="M12 5v14M5 12l7 7 7-7" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+    </a>
+  </section>
+
+  <!-- ── BIO ────────────────────────────────────────────────── -->
+  <section id="bio" class="bio-section">
+    <div class="bio-deco-line"></div>
+    <div class="container">
+      <div class="bio-grid">
+
+        <!-- LEFT: photo + label -->
+        <div class="bio-photo-col reveal">
+          <div class="bio-photo-frame">
+            <img src="фото/2026-03-18 21.52.53.jpg" alt="Армен Оганесян" class="bio-photo" />
+            <div class="bio-photo-border"></div>
+          </div>
+          <div class="bio-photo-caption">
+            <span class="tag" data-i18n="bio_tag">Биография</span>
+            <h2 data-i18n="bio_title">Биография</h2>
+          </div>
+        </div>
+
+        <!-- RIGHT: timeline -->
+        <div class="bio-timeline-col">
+          <ul class="timeline" id="bio-lines"></ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ────────────────────────────────────────────── -->
+  <section id="gallery" class="gallery-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag" data-i18n="gallery_tag">Фотографии</span>
+        <h2 data-i18n="gallery_title">Галерея</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item big reveal" data-src="фото/2026-03-18 21.49.04.jpg">
+          <img src="фото/2026-03-18 21.49.04.jpg" alt="Photo 1" />
+          <div class="gallery-hover"><span>&#10005;</span></div>
+        </div>
+        <div class="gallery-item reveal delay-1" data-src="фото/2026-03-18 21.52.49.jpg">
+          <img src="фото/2026-03-18 21.52.49.jpg" alt="Photo 2" />
+          <div class="gallery-hover"><span>&#10005;</span></div>
+        </div>
+        <div class="gallery-item reveal delay-2" data-src="фото/2026-03-18 21.52.53.jpg">
+          <img src="фото/2026-03-18 21.52.53.jpg" alt="Photo 3" />
+          <div class="gallery-hover"><span>&#10005;</span></div>
+        </div>
+        <div class="gallery-item reveal delay-3" data-src="фото/2026-03-18 21.52.57.jpg">
+          <img src="фото/2026-03-18 21.52.57.jpg" alt="Photo 4" />
+          <div class="gallery-hover"><span>&#10005;</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lb-close" id="lbClose">&#10005;</button>
+    <button class="lb-prev"  id="lbPrev">&#8249;</button>
+    <button class="lb-next"  id="lbNext">&#8250;</button>
+    <img class="lb-img" id="lbImg" src="" alt="" />
+  </div>
+
+  <!-- ── PROJECTS ───────────────────────────────────────────── -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="tag">Music</span>
+        <h2 data-i18n="projects_title">Проекты</h2>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card reveal">
+          <div class="pc-accent"></div>
+          <div class="pc-body">
+            <div class="pc-icon">🎸</div>
+            <span class="project-year">2013 — н.в.</span>
+            <h3 data-i18n="project_aratta_name">Aratta Band</h3>
+            <p  data-i18n="project_aratta_desc">Основана в 2013 году в Гюмри. Армен — гитарист и вокалист группы.</p>
+          </div>
+        </article>
+        <article class="project-card reveal delay-1">
+          <div class="pc-accent"></div>
+          <div class="pc-body">
+            <div class="pc-icon">🎵</div>
+            <span class="project-year">2019 — н.в.</span>
+            <h3 data-i18n="project_hayat_name">Hayat Project</h3>
+            <p  data-i18n="project_hayat_desc">С 2019 года по сей день — соло-гитарист.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ────────────────────────────────────────────── -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="contact-inner reveal">
+        <span class="tag">Contact</span>
+        <h2 data-i18n="contact_title">Контакт</h2>
+        <p class="contact-sub">Aratta Band · Hayat Project</p>
+        <a href="mailto:armen@example.com" class="btn btn-gold" data-i18n="contact_text">Связаться со мной</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p data-i18n="footer_copy">© 2025 Армен Оганесян · Все права защищены</p>
+  </footer>
+
+  <script src="translations.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
