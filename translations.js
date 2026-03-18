@@ -2,41 +2,42 @@ const translations = {
 
   /* ── ARMENIAN ─────────────────────────────────────────────── */
   hy: {
-    nav_home:     "Գлхавор эj",
-    nav_bio:      "Կенсагрутюн",
-    nav_gallery:  "Нкарнер",
-    nav_projects: "Нахагцнер",
-    nav_contact:  "Контакт",
+    nav_home:     "Գլխավոր էջ",
+    nav_bio:      "Կենսագրություն",
+    nav_gallery:  "Նկարներ",
+    nav_projects: "Պրոյեկտներ",
+    nav_contact:  "Կոնտակտ",
 
-    hero_tag:     "Կithарахар · Вокалист · Усуцич",
-    hero_name_1:  "Армен",
-    hero_name_2:  "Овhаnnisyan",
-    hero_cta:     "Կенсагрутюн",
+    hero_tag:     "Կիթառահար · Վոկալիստ · Ուսուցիչ",
+    hero_name_1:  "Արմեն",
+    hero_name_2:  "Հովհաննիսյան",
+    nav_bio:      "Կենսագրություն",
+    hero_cta:     "Կենսագրություն",
 
     stat_exp:      "тари евет",
     stat_bands:    "хмбер",
     stat_students: "ушахурт",
 
-    bio_tag:   "Կенсагрутюн",
-    bio_title: "Կенсагрутюн",
+    bio_tag:   "Կենսագրություն",
+    bio_title: "Կենսագրություն",
     bio_text_lines: [
-      "Ес` Արмen Вардгесi Hovhannisyans, ծnvel em Gyumri qaghaqum:",
-      "2004–2009թթ. sovоrel yev avartеl em Н.Тigranyanani anv. Arvestі kollеji kithari bajnum:",
-      "2008–2012թթ. sovоrel em ЕПК Gyumrii masnajaghly:",
-      "2010–2012թթ. ashkhatel em Нарek baregorcakan himnadramum orpes kithari usucich:",
-      "2013–2021թթ. ashkhatel em А.Тigranyanani anv. Yerajshtakan dprocum orpes kithari usucich:",
-      "2013թ. himnadrel em Аратта bend, linelоv khmbе kitharahari yev vokaliste:",
-      "2015–2021թթ. ashkhatel em Gyumrii Кара-Мурзаi anv. Petakan kollеjum orpes kithari dasaxos:",
-      "2017–2021թթ. ashkhatel em Gyumrii Жан yev Альбер Погhосyaneri anv. kollеjy:",
-      "2018–2022թթ. ashkhatel em Gyumrii Шерамi anv. тив 5 yerajshtakan dprocum orpes kithari usucich:",
-      "2019թ.-ից minch aysor navagum em Hayat Project khmbum orpes solo kitharahar:",
-      "Аmusnacad em, unem 2 zavak:"
+      "Ես` Արմեն Վարդգեսի Հովհաննիսյանս, ծնվել եմ Գյումրի քաղաքում:",
+      "2004-2009թթ.սովորել և ավարտել եմ` Ն.Տիգրանյանի անվ. Արվեստի քոլեջի կիթառի բաժնում:",
+      "22008-2012 թթ. սովորել եմ ԵՊԿ Գյումրիի մասնաճյուղը:",
+      "2010-2012թթ. աշխատել եմ Նարեկ բարեգործական հիմնադրամում որպես կիթառի ուսուցիչ:",
+      "2013 թ.ից մինչև 2021թ. աշխատել եմ Ա. Տիգրանյանի անվ. Երաժշտական դպրոցում, որպես կիթառի ուսուցիչ:",
+      "2013 թ. ին հիմնադրել եմ Արատտա բենդը, լինելով խմբի կիթառահար և վոկալիստը:",
+      "2015-2021 թ. աշխատել եմ Գյումրիի Կարա-Մուրզայի անվ. Պետական քոլեջում, որպես կիթառի դասախոս:",
+      "2017թ. ից մինչև 2021թ. աշխատել եմ Գյումրիի Ժան և Ալբեր Պողոսյանների անվ. քոլեջը",
+      "2018թ.-ից մինչև 2022թ. աշխատել եմ Գյումրիի Շերամի անվ. թիվ 5 երաժշտական դպրոցում որպես կիթառի ուսուցիչ:",
+      "2019թ. ից մինչ օրս նվագում եմ Հայաթ Փրոջեքթ խմբում որպես` սոլո կիթառահար",
+      "Ամուսնացած եմ ունեմ 2 զավակ:"
     ],
 
-    gallery_tag:   "Нкарнер",
-    gallery_title: "Нкарнер",
+    gallery_tag:   "Նկարներ",
+    gallery_title: "Նկարներ",
 
-    projects_title:      "Прoyект «нахагцнер»",
+    projects_title:      "Պրոյեկտներ «նախագծեր»",
     project_aratta_name: "Aratta Band",
     project_aratta_desc: "Himnadvel 2013-in, Gyumri qaghaqum. Армen — kitharahar yev vokaliste:",
     project_hayat_name:  "Hayat Project",
@@ -44,7 +45,7 @@ const translations = {
 
     contact_title: "Контактайин двyальнер",
     contact_text:  "Кapoghvek im het",
-    footer_copy:   "© 2025 Армен Овhаnnisyan",
+    footer_copy:   "© 2026 Армен Овhаnnisyan",
   },
 
   /* ── RUSSIAN ──────────────────────────────────────────────── */
